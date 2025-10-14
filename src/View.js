@@ -22,7 +22,7 @@ const View = () => {
   return (
     <>
       <NAVBAR />
-      <div className="todo_container , ramu">
+      <div className="ramu">
         <button
           onClick={goback}
           style={{
@@ -40,7 +40,8 @@ const View = () => {
             boxShadow: "0 6px 12px rgba(0, 0, 0, 0.2)",
             transition: "all 0.3s ease-in-out",
             border: "none",
-          }}>
+          }}
+        >
           Go Back
         </button>
       </div>
@@ -53,7 +54,8 @@ const View = () => {
           margin: "10px",
           padding: "20px",
           borderRadius: "10px",
-        }}>
+        }}
+      >
         <b>{frDta}</b>
       </div>
       <button style={{ background: "red" }} onClick={deletetodo}>

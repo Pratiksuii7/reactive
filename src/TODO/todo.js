@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import Footer from "../MP/footer";
 import NAVBAR from "../MP/navbar";
 
 import { useNavigate } from "react-router-dom";
@@ -21,7 +22,7 @@ const Td = () => {
   return (
     <>
       <NAVBAR />
-      <div className="page">
+      <div className="page todo_container">
         <h1>
           <div className="gang">ADD TO-DO:</div>
         </h1>
@@ -30,6 +31,7 @@ const Td = () => {
           <button>SAVE</button>
         </form>
       </div>
+      <Footer />
     </>
   );
 };

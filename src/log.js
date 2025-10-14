@@ -1,5 +1,6 @@
 import { Route, Routes, useNavigate } from "react-router-dom";
 import NAVBAR from "./MP/navbar";
+import Footer from "./MP/footer";
 
 const Log = () => {
   const nav = useNavigate();
@@ -185,6 +186,8 @@ const Log = () => {
           }
         ></Route>
       </Routes>
+
+      <Footer />
     </>
   );
 };

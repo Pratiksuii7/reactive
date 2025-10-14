@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./MP/footer";
 import "./styles/nofo.css";
 import ninjaImage from "./ninja.png"; // Adjust the path as per your directory structure
 import NAVBAR from "./MP/navbar";
@@ -23,6 +24,7 @@ const NotFound = () => {
           </a>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

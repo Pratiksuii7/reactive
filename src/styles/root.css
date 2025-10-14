@@ -1,0 +1,9 @@
+:root {
+  /* Todo app theme colors (only variables changed) */
+  --primary-bg: #0f1724; /* deep slate background */
+  --secondary-bg: #0b1a2b; /* slightly lighter section bg */
+  --text-color: #e6eef8; /* soft off-white for primary text */
+  --text-secondary: #9fb6d1; /* muted blue-gray for secondary text */
+  --border-color: #1f2d3d; /* subtle dark border */
+  --accent-color: #38bdf8; /* bright cyan accent for actions */
+}

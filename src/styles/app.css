@@ -98,3 +98,28 @@ button {
 }
 
 /* see only this much css can also make site beautiful but some dumbass use use to write 3000 lines of css */
+.welcome-text {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.action-button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+.logout-button {
+  background: #d62a0f;
+}
+.todo-button {
+  background: #646b04;
+}
+.creator-button {
+  background: #007bff;
+}

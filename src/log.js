@@ -2,6 +2,7 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import NAVBAR from "./MP/navbar";
 import Footer from "./MP/footer";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Log = () => {
   const nav = useNavigate();
@@ -39,7 +40,11 @@ const Log = () => {
               {name || localStorage.getItem("username") || "Guest"}!
             </div>
             <div className="login-actions">
-              <button className="action-buttons todo-button">Your To do</button>
+              <Link to="/home">
+                <button className="action-buttons todo-button">
+                  Your To do
+                </button>
+              </Link>
             </div>
             <div className="login-actions">
               <button className="action-buttons creator-button">

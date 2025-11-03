@@ -51,20 +51,7 @@ const Mp = () => {
 
         {todos && todos.length > 0 ? (
           todos.map((el, index) => (
-            <div
-              className="single_todo"
-              key={index}
-              style={{
-                backgroundColor: "#f5f5f5",
-                borderRadius: "10px",
-                padding: "10px 15px",
-                margin: "10px 0",
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                transition: "0.3s",
-              }}
-            >
+            <div className="single_todo" key={index}>
               <h2
                 style={{
                   textDecoration: completed[index] ? "line-through" : "none",

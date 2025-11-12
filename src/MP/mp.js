@@ -77,7 +77,7 @@ const Mp = () => {
                 <button
                   onClick={() => handleCheck(index)}
                   style={{
-                    background: completed[index] ? "#00cc66" : "#e6e6e6",
+                    background: completed[index] ? "#164d05ff" : "#e6e6e6",
                     border: "none",
                     cursor: "pointer",
                     borderRadius: "50%",
